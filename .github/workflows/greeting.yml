@@ -1,0 +1,11 @@
+name: Greeting with custom workflow
+on:
+  workflow_dispatch:
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: greets the person
+        uses: glarimy/greet-action@v1
+        with:
+          person-name: Krishna
