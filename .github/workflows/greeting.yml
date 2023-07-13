@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: greets the person
-        uses: glarimy/greet-action@v1.1
+        uses: glarimy/greeting-action@v1.1
         with:
           person-name: Krishna
