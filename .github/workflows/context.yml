@@ -7,6 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Prints the issue details
-        run: echo ${{ toJSON(env.ISSUE) }}
-    env:
-      ISSUE: ${{github.event.issue}}
+        run: echo ${{ toJSON(github.event) }}
