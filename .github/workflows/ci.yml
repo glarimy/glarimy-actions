@@ -1,4 +1,4 @@
-name: Python application
+name: Python CI Workflow
 on:
   push:
     branches: [ "main" ]
