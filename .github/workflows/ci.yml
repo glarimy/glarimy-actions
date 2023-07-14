@@ -9,7 +9,7 @@ permissions:
   contents: read
 jobs:
   build:
-    runs-on: [self-hosted, graphics]
+    runs-on: [self-hosted, python]
     strategy:
       fail-fast: false
       matrix:
