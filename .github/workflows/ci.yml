@@ -9,7 +9,7 @@ permissions:
   contents: read
 jobs:
   build:
-    runs-on: [self-hosted, python]
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
